@@ -1,0 +1,183 @@
+.main{
+    font-family: Calibri Light ;
+    
+    
+   
+    
+}
+.main1{
+    filter: blur(3px);
+}
+
+body{
+    text-align: center;
+    margin: 15% 0%;
+}
+
+
+.box {
+    border: 0.1rem solid red;
+    /* padding: 10px; */
+    height: 14rem;
+    width: 8rem;
+    margin: 1.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(170 169 169);
+    border-radius: 0.4rem;
+    display: inline-block;
+}
+.box1{
+    padding: 1rem 0rem 0rem 2rem;
+
+}
+.box2{
+    padding: 1rem 0rem 0rem 2rem;
+
+}
+.h{
+    display: inline;
+    
+    
+}
+.h1{
+    font-size: -webkit-xxx-large;
+    /* font-family: rial Black; */
+    font-weight: bolder;
+    font-family: Franklin Gothic Medium;
+   
+}
+.h2{
+    font-size: -webkit-xxx-large;
+    color: gray;
+    margin: 0rem 15rem 0rem 0rem;
+    
+}
+.h3{
+    font-size: larger;
+    color: gray;
+}
+.line{
+    color: red;
+    text-decoration: line-through;
+}
+.tp{
+    color: red;
+}
+/*page2*/
+.box11{
+    background: white;
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+    height: 124px;
+    width: 276px;
+    margin: -24% 40%;
+    box-shadow: 5px 5px 8px rgb(170 169 169);
+    border-radius: 5px;
+    position: absolute;
+
+}
+
+.tab{
+    color: white;
+    padding: 5px 30px 5px 30px;
+    background: red;
+    border: 1px solid red;
+    border-color: red;
+    border-radius: 55px;
+}
+
+/*html3 page*/
+.h13{
+    text-align: center;
+}
+
+.box13{
+    text-decoration: none;
+    padding: 33px 0px 1px 60px;
+    width: 200px;
+    height: 250px;
+    
+
+
+}
+.place{
+    margin-top: 98px;
+    margin-left: 146px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.blur-filter {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+
+/* Screen Sizes 500px and Up */
+@media only screen and (max-width: 700px) {
+    /*body {
+      background-color: lightblue;
+    }*/
+    .box0{
+        
+        width: 100%;
+        
+       
+       
+    }
+    .co{
+        color: gray;
+    }
+    .h2{
+        margin-right: 30%;
+    }
+    /*.o{
+       margin-left: 60px;
+       padding-left: 20px;
+    }*/
+    .box{
+        text-align: left;
+        height: 10vh ;
+        width: 80%;
+    }
+    .gon{
+        display: none;
+
+    }
+    /* add1*/
+    .box11{
+        margin: -15rem 5rem;
+    }
+    /*paris*/
+    .h1{
+        width: 135%;
+    }
+    .h13{
+        margin-left: 30%;
+    }
+    .box13{
+        text-align: left;
+        border: 0.1rem solid red;
+        /* padding: 10px; */
+        height: 14rem;
+        width: 10rem;
+        margin: 1.5rem 8rem;
+        box-shadow: 0.5rem 0.5rem 1rem rgb(170 169 169);
+        border-radius: 0.4rem;
+        display: inline-block;
+    }
+    .place{
+        margin: 48% 70%;
+        
+    }
+    .word{
+        font-family: Calibri Light;
+        font-size: larger;
+        color: gray;
+    }
+
+    
+}
